@@ -35,6 +35,7 @@
 * `git branch` 查看分支  
 * `git branch -avv` 查看分支  
 * `git branch <name>` 创建一个新的分支但是不切换到新创建的分支  
+* `git branch -m new-branch-name` 把当前分支名修改为 new-branch-name  
 * `git checkout <name>` 切换当前分支  
 * `git checkout -b <your-branch-name>` 创建一个新的分支同时切换到新创建的分支  
 * `git merge <name>`  
@@ -179,3 +180,7 @@ git remote -v
 > `git update-git-for-windows # Windows更新Git`  
 > 来源: <https://github.com/seven-innovation-base/Git2Github-practice/tree/main/%E8%87%B4%E5%A4%A7%E4%B8%80>  
 
+# 重命名 git 分支
+
+法一: checkout 到需要重命名的分支 (`git checkout branch-name`) 后, 使用 `git branch -m new-branch-name`  
+法二: checkout 到 master/main 分支中后, 使用 `git branch -m old-branch new-branch`  
