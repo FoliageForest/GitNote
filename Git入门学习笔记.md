@@ -180,6 +180,16 @@ git remote -v
 > `git update-git-for-windows # Windows更新Git`  
 > 来源: <https://github.com/seven-innovation-base/Git2Github-practice/tree/main/%E8%87%B4%E5%A4%A7%E4%B8%80>  
 
+# git merge
+
+当前分支 master
+
+![](./git%20merge/merge-1.jpg)
+
+使用 `git merge bugFix`
+
+![](./git%20merge/merge-2.jpg)
+
 # 重命名 git 分支
 
 法一: checkout 到需要重命名的分支 (`git checkout branch-name`) 后, 使用 `git branch -m new-branch-name`  
